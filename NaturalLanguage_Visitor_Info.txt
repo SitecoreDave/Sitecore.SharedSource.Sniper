@@ -1,0 +1,21 @@
+{
+"AreaCode: " + Tracker.CurrentVisit.AreaCode + "<br />" +
+"MetroCode: " + Tracker.CurrentVisit.MetroCode + "<br />" +
+"City: " + Tracker.CurrentVisit.City + "<br />" +
+"Region: " + Tracker.CurrentVisit.Region + "<br />" +
+"Country: " + Tracker.CurrentVisit.Country + "<br />" +
+"PostalCode: " + Tracker.CurrentVisit.PostalCode + "<br />" +
+"BusinessName: " + Tracker.CurrentVisit.BusinessName + "<br />" +
+"IspName: " + Tracker.CurrentVisit.IspName + "<br />" +
+"RDNS: " + Tracker.CurrentVisit.RDNS + "<br />" +
+"Language: " + Tracker.CurrentVisit.Language + "<br />" +
+"Latitude: " + Tracker.CurrentVisit.Latitude + "<br />" +
+"Longitude: " + Tracker.CurrentVisit.Longitude + "<br />" +
+"DeviceName: " + Tracker.CurrentVisit.DeviceName + "<br />" +
+"Browser: " + Tracker.CurrentVisit.Browser + "<br />" +
+"Keywords: " + Tracker.CurrentVisit.Keywords + "<br />" +
+"OperatingSystem: " + Tracker.CurrentVisit.OperatingSystem + "<br />" +
+"Screen: " + Tracker.CurrentVisit.Screen + "<br />" +
+"PreviousPage: " + Tracker.CurrentVisit.PreviousPage.UrlText + "<br />" +
+"VisitPageCount: " + Tracker.CurrentVisit.VisitPageCount + "<br />"
+}

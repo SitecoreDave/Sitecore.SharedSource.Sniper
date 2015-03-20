@@ -1,0 +1,14 @@
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.SharedSource.Sniper.dll
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.SharedSource.Sniper.pdb
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.Kernel.dll
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Newtonsoft.Json.dll
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.dll
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.pdb
+E:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.csprojResolveAssemblyReference.cache
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.SharedSource.Sniper.dll
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.SharedSource.Sniper.pdb
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Sitecore.Kernel.dll
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\bin\Debug\Newtonsoft.Json.dll
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.dll
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.pdb
+D:\code\Sitecore\Sitecore.SharedSource.Sniper\Sitecore.SharedSource.Sniper\obj\Debug\Sitecore.SharedSource.Sniper.csprojResolveAssemblyReference.cache

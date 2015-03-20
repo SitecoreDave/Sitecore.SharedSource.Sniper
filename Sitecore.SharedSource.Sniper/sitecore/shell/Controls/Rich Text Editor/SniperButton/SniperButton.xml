@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+	<RichText.SniperButton>
+		<FormDialog Icon="Sitecore.SharedSource.Sniper.Icon/32x32/logo.png" Header="Insert an Item as a Snippet"
+			Text="Select or search for the Item that you want to insert as a Snippet." OKButton="Insert">
+
+		<script Type="text/javascript" Language="javascript" Src="/sitecore/shell/Controls/Rich Text Editor/SniperButton/SniperButton.js">.</script>
+
+		<CodeBeside Type="Sitecore.SharedSource.Sniper.InsertSnippetForm, Sitecore.SharedSource.Sniper"/>
+
+    <DataContext ID="ContentDataContext" Root="/sitecore/content"/>
+    <!--<DataContext ID="SnippetsDataContext" Root="{44C2323C-F9D5-46F1-96EB-829A4DB51C49}"/>
+		<DataContext ID="DictionaryDataContext" Root="{26A65BB2-C1F7-47E5-B501-F616F1200767}"/>
+		<DataContext ID="SystemDictionaryDataContext" Root="{504AE189-9F36-4C62-9767-66D73D6C3084}"/>-->
+    <DataContext ID="SystemDictionaryDataContext" Root="/sitecore/system/dictionary"/>
+      
+		<Tabstrip ID="Tabs" Width="100%" Height="100%">
+			<Tab ID="SnippetsTab" Header="Snippets">
+				<Scrollbox Width="100%" Height="100%" Background="white" Border="none" Padding="0">
+				<TreeviewEx ID="SnippetsTreeview" DataContext="ContentDataContext" Root="true" />
+				</Scrollbox>
+			</Tab>
+<!-- 			<Tab ID="SnippetsSearchTab" Header="Search">
+				<Scrollbox Width="100%" Height="100%" Background="white" Border="none" Padding="0">
+				<Frame ID="SnippetSearchTabFrame" SourceUri="/sitecore/shell/Applications/Buckets/MiniResults.aspx?template=Snippet" style="width:100%;height:100%;position:absolute;"></Frame>
+				</Scrollbox>
+			</Tab>
+ -->			<Tab ID="DictionaryTab" Header="Dictionary">
+				<Scrollbox Width="100%" Height="100%" Background="white" Border="none" Padding="0">
+				<TreeviewEx ID="DictionaryTreeview" DataContext="SystemDictionaryDataContext" Root="true" />
+				</Scrollbox>
+			</Tab>
+			<!-- <Tab ID="DictionarySearchTab" Header="Search">
+				<Scrollbox Width="100%" Height="100%" Background="white" Border="none" Padding="0">
+				<Frame ID="DictionarySearchTabFrame" SourceUri="/sitecore/shell/Applications/Buckets/MiniResults.aspx?template=Dictionary entry" style="width:100%;height:100%;position:absolute;"></Frame>
+				</Scrollbox>
+			</Tab> -->
+		</Tabstrip>
+			</FormDialog>
+	</RichText.SniperButton>
+</control>
